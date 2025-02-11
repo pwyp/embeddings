@@ -1,0 +1,23 @@
+ipykernel
+ipympl
+ipython
+ipywidgets
+
+torch --index-url https://download.pytorch.org/whl/cpu; platform_system == "Linux"
+torchvision --index-url https://download.pytorch.org/whl/cpu; platform_system == "Linux"
+torchaudio --index-url https://download.pytorch.org/whl/cpu; platform_system == "Linux"
+
+torch; platform_system == "Windows"
+torchvision; platform_system == "Windows"
+torchaudio; platform_system == "Windows"
+
+torchview
+graphviz
+
+transformers
+sentence-transformers
+
+matplotlib
+numpy
+pandas
+scikit-learn
